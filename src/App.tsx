@@ -1,5 +1,4 @@
 import { Helmet } from "react-helmet";
-import Banners from "./components/Banners";
 import { useAppDispatch, useAppSelector } from "./app/hooks";
 import {
   addBetAmount,
@@ -14,6 +13,11 @@ import {
 } from "./features/gambleSlice";
 import Modal from "./components/Modal";
 import Result from "./components/Result";
+import Banner from "./components/Banner";
+
+import Banner01 from "./images/banner01.jpg";
+import Banner02 from "./images/banner02.jpg";
+import Banner03 from "./images/banner03.jpg";
 
 function App() {
   const dispatch = useAppDispatch();
@@ -31,7 +35,9 @@ function App() {
           홀짝맞추기
         </h1>
         <div className="mt-4 space-y-2">
-          <Banners />
+          <Banner source={Banner01} />
+          <Banner source={Banner02} />
+          <Banner source={Banner03} />
         </div>
         <div className="mt-12 space-x-2">
           <button

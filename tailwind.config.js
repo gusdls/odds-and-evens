@@ -9,13 +9,12 @@ module.exports = {
             filter: "brightness(1.2)",
           },
           "100%": {
-            filter: "brightness(2)",
+            filter: "brightness(1.8)",
           },
         },
       },
       animation: {
-        flash: "flash .2s steps(2, end) infinite",
-        "flash-later": "flash .2s steps(2, end) .1s infinite",
+        flash: "flash steps(2, end) infinite",
       },
     },
   },
