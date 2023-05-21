@@ -13,5 +13,5 @@ A tiny casino game with React and Redux
 
 ## Tasks
 
-- [ ] make a presentation
-- [ ] result circle animation
+- [x] make a ppt
+- [x] circle results
