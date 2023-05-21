@@ -4,17 +4,17 @@ module.exports = {
   theme: {
     extend: {
       keyframes: {
-        flash: {
-          "0%": {
+        glimmer: {
+          from: {
             filter: "brightness(1.2)",
           },
-          "100%": {
+          to: {
             filter: "brightness(1.8)",
           },
         },
       },
       animation: {
-        flash: "flash steps(2, end) infinite",
+        glimmer: "glimmer steps(2, end) infinite",
       },
     },
   },

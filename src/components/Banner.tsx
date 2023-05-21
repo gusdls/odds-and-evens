@@ -16,7 +16,7 @@ function Banner({ source }: Props) {
     <img
       src={source}
       alt="banner"
-      className="w-80 h-20 animate-flash"
+      className="w-80 h-20 animate-glimmer"
       ref={imgRef}
     />
   );
