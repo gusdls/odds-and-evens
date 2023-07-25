@@ -2,7 +2,7 @@
 
 A tiny casino game with React and Redux
 
-[Go to this site](https://amazing-rabanadas-23e5a7.netlify.app/)
+[https://dgoddeven.netlify.app/](https://dgoddeven.netlify.app/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/be048504-747f-459e-af97-8487d6add140/deploy-status)](https://app.netlify.com/sites/amazing-rabanadas-23e5a7/deploys)
 
