@@ -10,8 +10,3 @@ A tiny casino game with React and Redux
 
 - [React.js](https://react.dev/) - The library for web and native user interfaces
 - [Redux](https://redux.js.org/) - A Predictable State Container for JS Apps
-
-## Tasks
-
-- [x] make a ppt
-- [x] circle results
